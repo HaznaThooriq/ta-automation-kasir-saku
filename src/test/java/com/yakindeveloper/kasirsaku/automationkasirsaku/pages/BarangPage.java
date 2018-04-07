@@ -1,11 +1,9 @@
 package com.yakindeveloper.kasirsaku.automationkasirsaku.pages;
 
 import net.serenitybdd.core.annotations.findby.FindBy;
-import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.core.pages.PageObject;
+import net.serenitybdd.core.pages.WebElementFacade;
 import org.springframework.stereotype.Component;
-
-import java.util.List;
 
 @Component
 public class BarangPage extends PageObject {
@@ -112,12 +110,13 @@ public class BarangPage extends PageObject {
         return fieldCreateBarang.isDisplayed();
     }
 
-    public void userClickTrashIcon(){
+    public void userClickTrashIcon() {
         btnTrash.click();
         waitABit(10000);
+        getDriver().switchTo().alert().accept();
     }
 
-    public void userClickUpdateButton(){
+    public void userClickUpdateButton() {
         btnUpdate.click();
     }
 

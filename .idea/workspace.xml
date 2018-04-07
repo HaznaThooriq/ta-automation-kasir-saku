@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c215c6f-3f0b-48ab-9409-f075b2039f13" name="Default" comment="" />
+    <list default="true" id="4c215c6f-3f0b-48ab-9409-f075b2039f13" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_3_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_serenity_bdd_serenity_rest_assured_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_2_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_2_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/api/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/ApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/consult_dictionary/TestApi.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_6_jre.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kasirsaku.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kasirsaku.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/DefinitionTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/DefinitionTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/pages/BarangPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/pages/BarangPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/HomepageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/HomepageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/yakindeveloper/kasirsaku/automationkasirsaku/DefinitionTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/yakindeveloper/kasirsaku/automationkasirsaku/DefinitionTestSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/yakindeveloper/kasirsaku/automationkasirsaku/pages/BarangPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/yakindeveloper/kasirsaku/automationkasirsaku/pages/BarangPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/HomepageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/HomepageSteps.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,6 +37,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ta_automation_kasir_saku$DefinitionTestSuite__1_.ic" NAME="DefinitionTestSuite (1) Coverage Results" MODIFIED="1522747432809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.yakindeveloper.kasirsaku.automationkasirsaku.*</FILTER>
+    </SUITE>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -28,83 +60,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DefinitionTestSuite.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DefinitionTestSuite.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/DefinitionTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="102">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SupplierSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/SupplierSteps.java">
+      <file leaf-file-name="TestApi.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/consult_dictionary/TestApi.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="68">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/ApiSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemberSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/MemberSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BarangSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/BarangSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            <state relative-caret-position="181">
+              <caret line="127" column="21" lean-forward="true" selection-start-line="106" selection-start-column="12" selection-end-line="127" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Supplier.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/WebKasirSaku/Supplier.feature">
+      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/api/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PelangganSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/PelangganSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PurchaseSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/PurchaseSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26">
-              <caret line="10" selection-end-line="66" />
+            <state relative-caret-position="153">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,6 +139,9 @@
       <replace>supplier</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -151,16 +154,13 @@
         <option value="$PROJECT_DIR$/src/test/java/id/ac/pens/it/automation/kasirsaku/CucumberStepsDefinition.java" />
         <option value="$PROJECT_DIR$/src/test/java/id/ac/pens/it/automation/kasirsaku/steps/HomepageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/id/ac/pens/it/automation/kasirsaku/pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/features/WebKasirSaku/UserGotoDashboard.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/HomepageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/WebKasirSaku/UserMakeAPurchase.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/PurchaseSteps.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/WebKasirSaku/Barang2.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/Barang.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/BarangSteps.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/WebKasirSaku/Barang.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/pages/BarangPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/pages/DictionaryPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/pages/PurchasePage.java" />
@@ -173,7 +173,13 @@
         <option value="$PROJECT_DIR$/src/test/resources/features/WebKasirSaku/Supplier.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/SupplierSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/MemberSteps.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/consult_dictionary/TestApi.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/pages/BarangPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/HomepageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/DefinitionTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/ApiSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/api/TestController.java" />
       </list>
     </option>
   </component>
@@ -207,48 +213,13 @@
           <item name="Sample Serenity project using Cucumber and WebDriver" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Sample Serenity project using Cucumber and WebDriver" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="net.serenity-bdd:serenity-core:1.8.21" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Sample Serenity project using Cucumber and WebDriver" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="net.serenity-bdd:serenity-core:1.8.21" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="cglib:cglib:3.2.5" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Sample Serenity project using Cucumber and WebDriver" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="net.serenity-bdd:serenity-core:1.8.21" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="cglib:cglib:3.2.5" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.apache.ant:ant:1.9.6" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Sample Serenity project using Cucumber and WebDriver" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="net.serenity-bdd:serenity-core:1.8.21" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="io.appium:java-client:6.0.0-BETA2" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Sample Serenity project using Cucumber and WebDriver" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="net.serenity-bdd:serenity-core:1.8.21" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.asciidoctor:asciidoctor-java-integration:0.1.4" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-323" />
-    <option name="y" value="162" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -268,117 +239,102 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="kasirsaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kasirsaku" type="462c0819:PsiDirectoryNode" />
+              <item name="ta-automation-kasir-saku" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ta-automation-kasir-saku" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="kasirsaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kasirsaku" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kasirsaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kasirsaku" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="dictionaries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kasirsaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kasirsaku" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kasirsaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kasirsaku" type="462c0819:PsiDirectoryNode" />
+              <item name="ta-automation-kasir-saku" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ta-automation-kasir-saku" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="kasirsaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kasirsaku" type="462c0819:PsiDirectoryNode" />
+              <item name="ta-automation-kasir-saku" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ta-automation-kasir-saku" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="kasirsaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kasirsaku" type="462c0819:PsiDirectoryNode" />
+              <item name="ta-automation-kasir-saku" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ta-automation-kasir-saku" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="kasirsaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kasirsaku" type="462c0819:PsiDirectoryNode" />
+              <item name="ta-automation-kasir-saku" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ta-automation-kasir-saku" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="automationkasirsaku" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="kasirsaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kasirsaku" type="462c0819:PsiDirectoryNode" />
+              <item name="ta-automation-kasir-saku" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ta-automation-kasir-saku" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="automationkasirsaku" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="kasirsaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kasirsaku" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="automationkasirsaku" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kasirsaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kasirsaku" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="automationkasirsaku" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
-              <item name="serenity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kasirsaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kasirsaku" type="462c0819:PsiDirectoryNode" />
+              <item name="ta-automation-kasir-saku" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ta-automation-kasir-saku" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="kasirsaku" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kasirsaku" type="462c0819:PsiDirectoryNode" />
+              <item name="ta-automation-kasir-saku" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ta-automation-kasir-saku" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ta-automation-kasir-saku" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ta-automation-kasir-saku" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="consult_dictionary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ta-automation-kasir-saku" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ta-automation-kasir-saku" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="WebKasirSaku" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/serenity-core-master/serenity-core-master/serenity-appium" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -537,43 +493,54 @@
       <workItem from="1522719383232" duration="3190000" />
       <workItem from="1522730699956" duration="848000" />
       <workItem from="1522734941660" duration="327000" />
+      <workItem from="1522736035732" duration="834000" />
+      <workItem from="1522740815881" duration="6848000" />
+      <workItem from="1522891343525" duration="7789000" />
+      <workItem from="1522926140893" duration="19000" />
+      <workItem from="1522980083836" duration="1715000" />
+      <workItem from="1523012222581" duration="1303000" />
+      <workItem from="1523073749984" duration="695000" />
+      <workItem from="1523079860018" duration="1800000" />
+      <workItem from="1523082899667" duration="748000" />
+      <workItem from="1523088888532" duration="1559000" />
+      <workItem from="1523091090935" duration="257000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DefinitionTestSuite_(1) - 2018.04.02 at 16h 34m 17s.xml">
+    <history-entry file="DefinitionTestSuite_(1) - 2018.04.07 at 12h 48m 42s.xml">
       <configuration name="DefinitionTestSuite (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DefinitionTestSuite_(1) - 2018.04.02 at 16h 34m 32s.xml">
+    <history-entry file="DefinitionTestSuite_(1) - 2018.04.07 at 12h 52m 33s.xml">
       <configuration name="DefinitionTestSuite (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DefinitionTestSuite_(1) - 2018.04.02 at 16h 35m 15s.xml">
+    <history-entry file="DefinitionTestSuite_(1) - 2018.04.07 at 13h 37m 09s.xml">
       <configuration name="DefinitionTestSuite (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DefinitionTestSuite_(1) - 2018.04.02 at 16h 36m 10s.xml">
+    <history-entry file="DefinitionTestSuite_(1) - 2018.04.07 at 13h 37m 43s.xml">
       <configuration name="DefinitionTestSuite (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DefinitionTestSuite_(1) - 2018.04.02 at 16h 43m 31s.xml">
+    <history-entry file="DefinitionTestSuite_(1) - 2018.04.07 at 13h 38m 13s.xml">
       <configuration name="DefinitionTestSuite (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DefinitionTestSuite_(1) - 2018.04.02 at 17h 40m 30s.xml">
+    <history-entry file="DefinitionTestSuite_(1) - 2018.04.07 at 13h 40m 01s.xml">
       <configuration name="DefinitionTestSuite (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DefinitionTestSuite_(1) - 2018.04.02 at 17h 41m 29s.xml">
+    <history-entry file="DefinitionTestSuite_(1) - 2018.04.07 at 13h 41m 54s.xml">
       <configuration name="DefinitionTestSuite (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DefinitionTestSuite_(1) - 2018.04.03 at 12h 31m 07s.xml">
+    <history-entry file="DefinitionTestSuite_(1) - 2018.04.07 at 13h 46m 59s.xml">
       <configuration name="DefinitionTestSuite (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DefinitionTestSuite_(1) - 2018.04.03 at 12h 56m 39s.xml">
+    <history-entry file="DefinitionTestSuite_(1) - 2018.04.07 at 15h 22m 31s.xml">
       <configuration name="DefinitionTestSuite (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DefinitionTestSuite_(1) - 2018.04.03 at 12h 57m 50s.xml">
+    <history-entry file="DefinitionTestSuite_(1) - 2018.04.07 at 15h 52m 09s.xml">
       <configuration name="DefinitionTestSuite (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36922000" />
+    <option name="totallyTimeSpent" value="60489000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -586,38 +553,38 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="4" visible="true" weight="0.30559757" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.30559757" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32969153" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32969153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36643836" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294893" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.40527183" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.46232876" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info id="Image Layers" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.785832" />
-      <window_info anchor="bottom" id="Spring" order="9" weight="0.3294893" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4946401" visible="true" weight="0.26399395" />
-      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5205479" />
+      <window_info anchor="bottom" id="Spring" order="10" weight="0.3294893" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.81335616" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4946401" visible="true" weight="0.30711043" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
       <window_info anchor="right" id="Gradle" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="5" sideWeight="0.5053599" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939634" />
     </layout>
   </component>
@@ -627,122 +594,47 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="given()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>header</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>given()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>testApi();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/PelangganSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/api/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="46" />
+        <state relative-caret-position="544">
+          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/pages/SupplierPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="55" selection-start-line="55" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="e#1627#1628#0" expanded="true" />
-            <element signature="e#1667#1668#0" expanded="true" />
-            <element signature="e#1717#1718#0" expanded="true" />
-            <element signature="e#1755#1756#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/PurchaseSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="10" lean-forward="true" selection-end-line="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/PelangganSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/pages/SupplierPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="55" selection-start-line="55" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="e#1627#1628#0" expanded="true" />
-            <element signature="e#1667#1668#0" expanded="true" />
-            <element signature="e#1717#1718#0" expanded="true" />
-            <element signature="e#1755#1756#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/WebKasirSaku/Supplier.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/WebKasirSaku/Pelanggan.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/PelangganSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/pages/SupplierPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="55" selection-start-line="55" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="e#1627#1628#0" expanded="true" />
-            <element signature="e#1667#1668#0" expanded="true" />
-            <element signature="e#1717#1718#0" expanded="true" />
-            <element signature="e#1755#1756#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/DefinitionTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/serenity/EndUserSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -798,13 +690,6 @@
     <entry file="file://$PROJECT_DIR$/kasirsaku.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consult_dictionary/LookupADefinition.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/id/ac/pens/it/automation/kasirsaku/CucumberStepsDefinition.java" />
@@ -872,13 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/pages/BarangPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="19" column="47" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="19" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/WebKasirSaku/UserGotoDashboard.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -886,51 +764,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/WebKasirSaku/UserMakeAPurchase.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/WebKasirSaku/Barang.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/WebKasirSaku/Member.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/pages/SupplierPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="55" selection-start-line="55" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="e#1627#1628#0" expanded="true" />
-            <element signature="e#1667#1668#0" expanded="true" />
-            <element signature="e#1717#1718#0" expanded="true" />
-            <element signature="e#1755#1756#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/WebKasirSaku/Pelanggan.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/WebKasirSaku/Supplier.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -948,13 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/MemberSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -962,50 +792,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/BarangSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/SupplierSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/PelangganSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/PurchaseSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
+        <state relative-caret-position="51">
           <caret line="10" selection-end-line="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/HomepageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1016,10 +813,171 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consult_dictionary/LookupADefinition.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/PelangganSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/WebKasirSaku/Barang.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/WebKasirSaku/Member.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/WebKasirSaku/Pelanggan.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/WebKasirSaku/Supplier.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/BarangSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/pages/BarangPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="112" column="16" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/WebKasirSaku/UserMakeAPurchase.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar!/org/apache/http/util/Asserts.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.5/rest-assured-3.0.5.jar!/io/restassured/specification/RequestSpecification.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="281" column="35" selection-start-line="281" selection-start-column="35" selection-end-line="281" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7429">
+          <caret line="497" selection-start-line="497" selection-end-line="497" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.3.0/cucumber-core-2.3.0.jar!/cucumber/runtime/Timeout.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/HomepageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consult_dictionary/TestApi.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.8.21/serenity-core-1.8.21-sources.jar!/net/serenitybdd/core/Serenity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="224" column="45" selection-start-line="224" selection-start-column="45" selection-end-line="224" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.5/rest-assured-3.0.5.jar!/io/restassured/internal/ResponseSpecificationImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="1287" selection-start-line="1287" selection-end-line="1287" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/api/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/DefinitionTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="102">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yakindeveloper/kasirsaku/automationkasirsaku/steps/ApiSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="127" column="21" lean-forward="true" selection-start-line="106" selection-start-column="12" selection-end-line="127" selection-end-column="21" />
         </state>
       </provider>
     </entry>

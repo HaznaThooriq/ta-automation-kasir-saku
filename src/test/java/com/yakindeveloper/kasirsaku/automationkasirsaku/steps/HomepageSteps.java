@@ -1,6 +1,7 @@
 package com.yakindeveloper.kasirsaku.automationkasirsaku.steps;
 
 
+import com.yakindeveloper.kasirsaku.automationkasirsaku.api.TestController;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -71,4 +72,5 @@ public class HomepageSteps {
         homePage.login(username,password);
         homePage.clickLogin();
     }
+
 }
