@@ -4,9 +4,10 @@ import com.yakindeveloper.kasirsaku.automationkasirsaku.pages.SupplierPage;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import net.thucydides.core.steps.ScenarioSteps;
 import org.springframework.beans.factory.annotation.Autowired;
 
-public class SupplierSteps {
+public class SupplierSteps extends ScenarioSteps {
     @Autowired
     SupplierPage supplierPage;
 

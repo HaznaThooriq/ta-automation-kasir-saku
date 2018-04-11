@@ -109,7 +109,7 @@
                 <version>2.19.1</version>
                 <configuration>
                     <includes>
-                        <include>**/CucumberRunner.java</include>
+                        <include>**/DefinitionTestSuite.java</include>
                     </includes>
                     <argLine>-Xmx512m</argLine>
                     <systemPropertyVariables>

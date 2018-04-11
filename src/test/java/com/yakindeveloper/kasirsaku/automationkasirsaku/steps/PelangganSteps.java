@@ -6,9 +6,10 @@ import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import net.thucydides.core.steps.ScenarioSteps;
 import org.springframework.beans.factory.annotation.Autowired;
 
-public class PelangganSteps {
+public class PelangganSteps extends ScenarioSteps {
     @Autowired
     PelangganPage pelangganPage;
 

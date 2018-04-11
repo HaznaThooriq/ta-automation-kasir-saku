@@ -7,9 +7,10 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.thucydides.core.annotations.Steps;
+import net.thucydides.core.steps.ScenarioSteps;
 import org.springframework.beans.factory.annotation.Autowired;
 
-public class PurchaseSteps {
+public class PurchaseSteps extends ScenarioSteps {
     @Autowired
     PurchasePage purchasePage;
 

@@ -7,11 +7,12 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import com.yakindeveloper.kasirsaku.automationkasirsaku.pages.HomePage;
+import net.thucydides.core.steps.ScenarioSteps;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class HomepageSteps {
+public class HomepageSteps extends ScenarioSteps {
     @Autowired
     HomePage homePage;
 

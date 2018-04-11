@@ -6,8 +6,9 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 import com.yakindeveloper.kasirsaku.automationkasirsaku.steps.serenity.EndUserSteps;
+import net.thucydides.core.steps.ScenarioSteps;
 
-public class DefinitionSteps {
+public class DefinitionSteps extends ScenarioSteps {
 
     @Steps
     EndUserSteps anna;
