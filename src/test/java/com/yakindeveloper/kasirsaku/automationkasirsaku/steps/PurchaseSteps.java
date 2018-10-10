@@ -39,7 +39,7 @@ public class PurchaseSteps extends ScenarioSteps {
 
     @Given("^user go to dashboard of kasirsaku$")
     public void userGoToDashboardOfKasirsaku() throws Throwable {
-       homepageSteps.userGoToUrl("http://localhost/kasir-saku-web-app/frontend/web/**");
+       homepageSteps.userGoToUrl("http://localhost/kasir-saku-web-app/frontend/web/");
        homepageSteps.userInKasirsakuHomepage();
        homepageSteps.userClickNavbarUserArea();
        homepageSteps.userClickLoginButton();
