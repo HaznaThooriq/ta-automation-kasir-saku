@@ -12,6 +12,9 @@ public class HomePage extends PageObject{
     @FindBy(xpath = "//a[@class='navbar-brand']/img[@class='logo']")
     private WebElementFacade logo;
 
+    @FindBy(xpath = "//div[@class=\'help-block\']")
+    private WebElementFacade toastInvalidUsernamePassword;
+
     @FindBy(id = "loginform-username")
     private WebElementFacade fieldUsername;
 
@@ -42,7 +45,7 @@ public class HomePage extends PageObject{
     }
 
     public void clickBtnUserArea(){
-        btnUserArea.click();
+        btnUserArea.waitUntilClickable().click();
     }
 
     public void clickBtnLogin(){
@@ -64,6 +67,10 @@ public class HomePage extends PageObject{
     public void login(String username, String password){
         fieldUsername.type(username);
         fieldPassword.type(password);
+    }
+
+    public boolean toastInvalidUsernamePassword(){
+        return toastInvalidUsernamePassword.isVisible();
     }
 
 
