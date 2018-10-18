@@ -73,4 +73,8 @@ public class HomepageSteps extends ScenarioSteps {
         homePage.clickLogin();
     }
 
+    @Then("^toast invalid username and password appear$")
+    public void userStillInLoginPage() throws Throwable {
+        homePage.toastInvalidUsernamePassword();
+    }
 }
