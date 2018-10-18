@@ -45,4 +45,9 @@ public class MemberSteps extends ScenarioSteps {
     public void userTypeTelephoneAs(String nomor) throws Throwable {
         memberPage.userTypeTelephoneAs(nomor);
     }
+
+    @When("^buttton member is displayed$")
+    public void butttonMemberIsDisplayed() throws Throwable {
+       memberPage.btnMemberIsDisplayed();
+    }
 }

@@ -1,7 +1,6 @@
 package com.yakindeveloper.kasirsaku.automationkasirsaku.steps;
 
 import com.yakindeveloper.kasirsaku.automationkasirsaku.pages.PurchasePage;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -39,7 +38,7 @@ public class PurchaseSteps extends ScenarioSteps {
 
     @Given("^user go to dashboard of kasirsaku$")
     public void userGoToDashboardOfKasirsaku() throws Throwable {
-       homepageSteps.userGoToUrl("http://localhost/kasir-saku-web-app/frontend/web/");
+       homepageSteps.userGoToUrl("http://kasirsaku.sahabatdeveloper.site/");
        homepageSteps.userInKasirsakuHomepage();
        homepageSteps.userClickNavbarUserArea();
        homepageSteps.userClickLoginButton();

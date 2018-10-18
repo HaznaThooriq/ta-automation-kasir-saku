@@ -4,7 +4,6 @@ import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import org.springframework.stereotype.Component;
-import sun.misc.Contended;
 
 @Component
 public class MemberPage extends PageObject {
@@ -15,7 +14,7 @@ public class MemberPage extends PageObject {
     @FindBy(xpath = "//div[@class='header']/h2")
     private WebElementFacade fieldRequestKartuMember;
 
-    @FindBy(xpath = "//a[@href='/member/index']")
+    @FindBy(xpath = "//i[@class='material-icons']")
     private WebElementFacade fieldMember;
 
     @FindBy(id = "member-nama")
@@ -32,6 +31,10 @@ public class MemberPage extends PageObject {
 
     public void userClickButtonMember(){
         fieldMember.click();
+    }
+
+    public boolean btnMemberIsDisplayed(){
+        return  fieldMember.isDisplayed();
     }
 
     public boolean popupMemberSuccessCreatedIsAppear(){

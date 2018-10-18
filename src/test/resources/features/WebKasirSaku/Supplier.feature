@@ -6,7 +6,12 @@ Feature: Automation Fitur supplier
 
   @CRUDSupplier
   Scenario: user make CRUD supplier
-    Given user go to dashboard of kasirsaku
+    Given user go to 'http://kasirsaku.sahabatdeveloper.site/'
+    Then user in kasirsaku homepage
+    When user click navbar user area
+    When user click Login Button
+    When user type username as 'kasir_saku' and password as 'kasir_saku'
+    Then user login as kasir saku
     When user click button supplier
     And user click Add supplier
     Then user in create supplier page
