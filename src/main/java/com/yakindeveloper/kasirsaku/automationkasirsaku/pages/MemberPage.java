@@ -14,7 +14,7 @@ public class MemberPage extends PageObject {
     @FindBy(xpath = "//div[@class='header']/h2")
     private WebElementFacade fieldRequestKartuMember;
 
-    @FindBy(xpath = "//i[@class='material-icons']")
+    @FindBy(xpath = "//a[@href='/member/index']")
     private WebElementFacade fieldMember;
 
     @FindBy(id = "member-nama")

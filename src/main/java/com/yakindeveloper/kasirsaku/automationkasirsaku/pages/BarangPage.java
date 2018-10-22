@@ -8,6 +8,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class BarangPage extends PageObject {
 
+    @FindBy(xpath = "//div[@class='help-block']")
+    private WebElementFacade toast;
+
     @FindBy(xpath = "//a[@href='/barang/index']")
     private WebElementFacade btnBarang;
 
@@ -49,6 +52,10 @@ public class BarangPage extends PageObject {
 
     @FindBy(xpath = "//a[@data-method='post']")
     private WebElementFacade btnTrash;
+
+    public boolean toastIsVisible(){
+        return toast.isVisible();
+    }
 
     public void userClickButtonBarang() {
         btnBarang.click();

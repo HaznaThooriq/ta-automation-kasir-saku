@@ -8,7 +8,7 @@ Feature: Go to homepage kasirsaku
   Scenario: user make a purchase
     Given user go to dashboard of kasirsaku
     When user click button pembelian
-    When user pilh barang as 'Sepeda Hias'
+    When user pilh barang as 'Marjan'
     And user click beli button
     And user input Jumlah Bayar As'40000'
     And user click checkout button

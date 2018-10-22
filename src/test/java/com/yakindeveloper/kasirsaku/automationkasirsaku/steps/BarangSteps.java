@@ -119,4 +119,9 @@ public class BarangSteps extends ScenarioSteps {
     public void userUploadFoto() throws Throwable {
         barangPage.userUploadFoto();
     }
+
+    @Then("^toast field '(.*)' must be filled is appear$")
+    public void toastMustBeFilledIsAppear(String toast) throws Throwable {
+        barangPage.toastIsVisible();
+    }
 }
