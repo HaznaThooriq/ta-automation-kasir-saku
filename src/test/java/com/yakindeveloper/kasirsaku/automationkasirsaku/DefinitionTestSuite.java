@@ -5,5 +5,5 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features="src/test/resources/features/WebKasirSaku/Barang.feature")
+@CucumberOptions(features="src/test/resources/features/WebKasirSaku/Login.feature")
 public class DefinitionTestSuite {}
