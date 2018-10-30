@@ -1,4 +1,4 @@
-/*
+
 package com.yakindeveloper.kasirsaku.automationkasirsaku.steps;
 
 import com.yakindeveloper.kasirsaku.automationkasirsaku.api.TestController;
@@ -13,4 +13,4 @@ public class ApiSteps extends ScenarioSteps {
        testController.testApi();
     }
 }
-*/
+
