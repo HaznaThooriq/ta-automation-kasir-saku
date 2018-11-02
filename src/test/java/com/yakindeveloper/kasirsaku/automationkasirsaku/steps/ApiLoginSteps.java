@@ -6,7 +6,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import net.thucydides.core.steps.ScenarioSteps;
 
-public class LoginSteps extends ScenarioSteps {
+public class ApiLoginSteps extends ScenarioSteps {
     LoginController loginController = new LoginController();
 
     @Given("^user test API Login with username '(.*)' and password '(.*)'$")
