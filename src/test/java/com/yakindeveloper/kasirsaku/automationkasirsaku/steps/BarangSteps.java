@@ -124,4 +124,5 @@ public class BarangSteps extends ScenarioSteps {
     public void toastMustBeFilledIsAppear(String toast) throws Throwable {
         barangPage.toastIsVisible();
     }
+
 }
