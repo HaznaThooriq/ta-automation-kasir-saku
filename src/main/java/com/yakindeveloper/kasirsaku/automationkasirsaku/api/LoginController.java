@@ -19,7 +19,7 @@ public class LoginController {
         response.body("status", equalTo(true));
         //        JsonPath jsonPath = response.extract().response().jsonPath();
 //        Cookie cookie = new Cookie.Builder("access_token", jsonPath.get("access_token").toString()).build();
-        System.out.print(response.extract().response().getCookie("token").toString());
+       // System.out.print(response.extract().response().getCookie("token").toString());
         response.extract().response().getBody().prettyPrint();
     }
 
