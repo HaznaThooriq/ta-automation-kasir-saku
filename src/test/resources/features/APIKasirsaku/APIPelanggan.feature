@@ -25,7 +25,7 @@ Feature: Api Pelanggan
     Then user can see the massage API Delete Pelanggan Berhasil
 
   @APIIndexPelanggan
-  Scenario: Happyflow API Index hutang
+  Scenario: Happyflow API Index Pelanggan
     Given user test API Index Pelanggan
     Then user can see the massage of Index Pelanggan Berhasil
 

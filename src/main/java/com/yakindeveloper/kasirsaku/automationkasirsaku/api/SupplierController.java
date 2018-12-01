@@ -11,8 +11,12 @@ public class SupplierController {
     public void createSupplier() {
         ValidatableResponse response = given().header("Authorization", "Basic YTJGemFYSmZjMkZyZFRwTlpXWldMVGgwVUVGdk9EbE9SR2M9Og==")
                 .baseUri("http://api.kasirsaku.sahabatdeveloper.site")
-                .basePath("/v1/hutang")
-                .when().post("/pelanggan?id={id}", "31")
+                .formParam("nama", "lala")
+                .formParam("alamat", "mjk")
+                .formParam("phone", "082141045604")
+                .formParam("email", "hazna.android@gmail.com")
+                .basePath("/v1/supplier")
+                .when().post("/create")
                 .then().statusCode(200);
         response.body("status", equalTo(true));
         response.extract().response().getBody().prettyPrint();
@@ -21,9 +25,12 @@ public class SupplierController {
     public void updateSupplier() {
         ValidatableResponse response = given().header("Authorization", "Basic YTJGemFYSmZjMkZyZFRwTlpXWldMVGgwVUVGdk9EbE9SR2M9Og==")
                 .baseUri("http://api.kasirsaku.sahabatdeveloper.site")
-                .formParam("jumlah_bayar", "1000")
-                .basePath("/v1/hutang")
-                .when().post("/bayar?id={id}", "34")
+                .formParam("nama", "lala")
+                .formParam("alamat", "mjk")
+                .formParam("phone", "082141045604")
+                .formParam("email", "hazna.android@gmail.com")
+                .basePath("/v1/supplier")
+                .when().post("/update?id={id}", "6")
                 .then().statusCode(200);
         response.body("status", equalTo(true));
         response.extract().response().getBody().prettyPrint();
@@ -32,7 +39,7 @@ public class SupplierController {
     public void indexSupplier() {
         ValidatableResponse response = given().header("Authorization", "Basic YTJGemFYSmZjMkZyZFRwTlpXWldMVGgwVUVGdk9EbE9SR2M9Og==")
                 .baseUri("http://api.kasirsaku.sahabatdeveloper.site")
-                .basePath("/v1/transaksi")
+                .basePath("/v1/supplier")
                 .when().post("/index")
                 .then().statusCode(200);
         response.body("status", equalTo(true));
@@ -43,8 +50,8 @@ public class SupplierController {
     public void viewSupplier() {
         ValidatableResponse response = given().header("Authorization", "Basic YTJGemFYSmZjMkZyZFRwTlpXWldMVGgwVUVGdk9EbE9SR2M9Og==")
                 .baseUri("http://api.kasirsaku.sahabatdeveloper.site")
-                .basePath("/v1/hutang")
-                .when().post("/view?id={id}", "34")
+                .basePath("/v1/supplier")
+                .when().post("/view?id={id}", "8")
                 .then().statusCode(200);
         response.body("status", equalTo(true));
         response.extract().response().getBody().prettyPrint();
@@ -54,7 +61,7 @@ public class SupplierController {
         ValidatableResponse response = given().header("Authorization", "Basic YTJGemFYSmZjMkZyZFRwTlpXWldMVGgwVUVGdk9EbE9SR2M9Og==")
                 .baseUri("http://api.kasirsaku.sahabatdeveloper.site")
                 .formParam("search", "abdul")
-                .basePath("/v1/hutang")
+                .basePath("/v1/supplier")
                 .when().post("/search")
                 .then().statusCode(200);
         response.body("status", equalTo(true));
@@ -64,8 +71,8 @@ public class SupplierController {
     public void deleteSupplier() {
         ValidatableResponse response = given().header("Authorization", "Basic YTJGemFYSmZjMkZyZFRwTlpXWldMVGgwVUVGdk9EbE9SR2M9Og==")
                 .baseUri("http://api.kasirsaku.sahabatdeveloper.site")
-                .basePath("/v1/transaksi")
-                .when().post("/index")
+                .basePath("/v1/supplier")
+                .when().post("/delete?id={id}", "6")
                 .then().statusCode(200);
         response.body("status", equalTo(true));
         response.extract().response().getBody().prettyPrint();

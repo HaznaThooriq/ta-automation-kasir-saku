@@ -1,35 +1,35 @@
-Feature: Api Pelanggan
+Feature: Api Supplier
 
   Narrative:
   As a user
-  I want to test API Pelanggan at kasirsaku
+  I want to test API Supplier at kasirsaku
 
-  @APICreatePelanggan
-  Scenario: Happyflow API Create Pelanggan
-    Given user test API Create Pelanggan
-    Then user can see the massage Create Pelanggan berhasil
+  @APICreateSupplier
+  Scenario: Happyflow API Create Supplier
+    Given user test API Create Supplier
+    Then user can see the massage Create Supplier berhasil
 
-  @APIUpdatePelanggan
-  Scenario: Happyflow API Update Pelanggan
-    Given user test API Update Pelanggan
-    Then user can see the massage Update Pelanggan berhasil
+  @APIUpdateSupplier
+  Scenario: Happyflow API Update Supplier
+    Given user test API Update Supplier
+    Then user can see the massage Update Supplier berhasil
 
-  @APISearchPelanggan
-  Scenario: Happyflow API Search Pelanggan
-    Given user test API Search Pelanggan
-    Then user can see the massage Search Pelanggan berhasil
+  @APISearchSupplier
+  Scenario: Happyflow API Search Supplier
+    Given user test API Search Supplier
+    Then user can see the massage Search Supplier berhasil
 
-  @APIDeletePelanggan
-  Scenario: Happyflow API Delete Pelanggan
-    Given user test API Delete Pelanggan
-    Then user can see the massage API Delete Pelanggan Berhasil
+  @APIDeleteSupplier
+  Scenario: Happyflow API Delete Supplier
+    Given user test API Delete Supplier
+    Then user can see the massage API Delete Supplier Berhasil
 
-  @APIIndexPelanggan
-  Scenario: Happyflow API Index hutang
-    Given user test API Index Pelanggan
-    Then user can see the massage of Index Pelanggan Berhasil
+  @APIIndexSupplier
+  Scenario: Happyflow API Index Supplier
+    Given user test API Index Supplier
+    Then user can see the massage of Index Supplier Berhasil
 
-  @APIViewPelanggan
-  Scenario: Happyflow API View Pelanggan
-    Given user test API View Pelanggan
-    Then user can see the massage of View Pelanggan berhasil
+  @APIViewSupplier
+  Scenario: Happyflow API View Supplier
+    Given user test API View Supplier
+    Then user can see the massage of View Supplier berhasil
