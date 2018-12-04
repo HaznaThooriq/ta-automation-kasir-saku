@@ -26,5 +26,35 @@ public class ApiProfileSteps extends ScenarioSteps {
     @Then("^user can't see the profile$")
     public void userCanTSeeTheProfile() throws Throwable {
     }
+
+    @Given("^user test API Update Profil with Authorization '(.*)'$")
+    public void userTestAPIUpdateProfilWithAuthorization(String auth) {
+        profileController.updateProfilHappyFlow(auth);
+    }
+
+    @Then("^user can see the profile already update$")
+    public void userCanSeeTheProfileAlreadyUpdate() {
+
+    }
+
+    @Given("^user test API Profil Update with Error Authorization '(.*)'$")
+    public void userTestAPIProfilUpdateWithErrorAuthorization(String auth) {
+        profileController.updateProfilErrorFlow(auth);
+    }
+
+    @Then("^user can't see the profile already update$")
+    public void userCanTSeeTheProfileAlreadyUpdate() {
+
+    }
+
+    @Given("^user test API Update Profil with Error Authorization '(.*)'$")
+    public void userTestAPIUpdateProfilWithErrorAuthorization(String auth) {
+        profileController.updateProfilErrorFlow(auth);
+    }
+
+    @Given("^user test API Update Profil with zero required field$")
+    public void userTestAPIUpdateProfilWithZeroRequiredField() {
+        profileController.updateProfileZeroRequiredField();
+    }
 }
 
