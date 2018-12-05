@@ -18,4 +18,14 @@ public class LaporanController {
         response.extract().response().getBody().prettyPrint();
     }
 
+    public void laporanErrorFlow() {
+        ValidatableResponse response = given().header("Authorization", "Basic YTGemFYSmZjMkZyZFRwTlpXWldMVGgwVUVGdk9EbE9SR2M9Og==")
+                .baseUri("http://api.kasirsaku.sahabatdeveloper.site")
+                .basePath("/v1/laporan")
+                .when().post("/harian")
+                .then().statusCode(401);
+        response.body("status", equalTo(401));
+        response.extract().response().getBody().prettyPrint();
+    }
+
 }

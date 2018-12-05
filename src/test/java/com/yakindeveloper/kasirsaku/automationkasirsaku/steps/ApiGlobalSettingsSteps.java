@@ -28,5 +28,24 @@ public class ApiGlobalSettingsSteps extends ScenarioSteps {
     @Then("^user can see the result of get App Android Global Settings$")
     public void userCanSeeTheResultOfGetAppAndroidGlobalSettings() {
     }
+
+    @Given("^user test API Index Global Settings Invalid Auth$")
+    public void userTestAPIIndexGlobalSettingsInvalidAuth() {
+        globalSettingsController.indexGlobalSettingsInvalidAuth();
+    }
+
+    @Then("^user can see the result of get Index Global Settings gagal$")
+    public void userCanSeeTheResultOfGetIndexGlobalSettingsGagal() {
+
+    }
+
+    @Given("^user test API App Android Version Global Settings Invalid Auth$")
+    public void userTestAPIAppAndroidVersionGlobalSettingsInvalidAuth() {
+        globalSettingsController.appAndroidVersionGlobalSettingsInvalidAuth();
+    }
+
+    @Then("^user can see the result of get App Android Global Settings gagal$")
+    public void userCanSeeTheResultOfGetAppAndroidGlobalSettingsGagal() {
+    }
 }
 

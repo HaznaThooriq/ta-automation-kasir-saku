@@ -14,6 +14,16 @@ Feature: Api Global Settings
   Given user test API App Android Version Global Settings
     Then user can see the result of get App Android Global Settings
 
+  @APIIndexGlobalSettingsInvalidAuth
+  Scenario: Errorflow Index Global Settings Invalid Auth
+    Given user test API Index Global Settings Invalid Auth
+    Then user can see the result of get Index Global Settings gagal
+
+  @APIAppAndroidVersionGlobalSettingsInvalidAuth
+  Scenario: Happyflow App Android Version Global Settings Invalid Auth
+    Given user test API App Android Version Global Settings Invalid Auth
+    Then user can see the result of get App Android Global Settings gagal
+
 
 
 

@@ -39,8 +39,8 @@ Feature: Api Transaksi
     Given user test API View Transaksi with Invalid Id Transaksi
     Then user can see the massage of View Transaksi gagal
 
-  @APISearchTransaksi
-  Scenario: Happyflow API Search Transaksi with Invalid Id
+  @APISearchTransaksiInvalidId
+  Scenario: Errorflow API Search Transaksi with Invalid Id
     Given user test API Search Transaksi with Invalid Id
     Then user can see the massage of Search Transaksi gagal
 

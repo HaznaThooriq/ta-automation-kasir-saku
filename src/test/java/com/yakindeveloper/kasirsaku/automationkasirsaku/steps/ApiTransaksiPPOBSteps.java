@@ -35,5 +35,30 @@ public class ApiTransaksiPPOBSteps extends ScenarioSteps {
     public void userTestAPIViewTransaksiPPOB() {
         transaksiPPOBController.viewTopupPPOB();
     }
+
+    @Given("^user test API Create Transaksi PPOB Invalid Auth$")
+    public void userTestAPICreateTransaksiPPOBInvalidAuth() {
+        transaksiPPOBController.createTransaksiPPOBInvalidAuth();
+    }
+
+    @Then("^user can see get the result of create Transaksi PPOB gagal$")
+    public void userCanSeeGetTheResultOfCreateTransaksiPPOBGagal() {
+
+    }
+
+    @Given("^user test API Index Transaksi PPOB Invalid Auth$")
+    public void userTestAPIIndexTransaksiPPOBInvalidAuth() {
+        transaksiPPOBController.indexTransaksiPPOBInvalidAuth();
+    }
+
+    @Then("^user can see the result of Transaksi topup PPOB gagal$")
+    public void userCanSeeTheResultOfTransaksiTopupPPOBGagal() {
+
+    }
+
+    @Given("^user test API view Transaksi PPOB Invalid Id$")
+    public void userTestAPIViewTransaksiPPOBInvalidId() {
+        transaksiPPOBController.viewTopupPPOBInvalidId();
+    }
 }
 

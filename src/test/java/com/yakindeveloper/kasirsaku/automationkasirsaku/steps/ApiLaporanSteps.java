@@ -18,5 +18,14 @@ public class ApiLaporanSteps extends ScenarioSteps {
     @Then("^user can see get the result of get laporan berhasil$")
     public void userCanSeeGetTheResultOfGetLaporanBerhasil() {
     }
+
+    @Given("^user test API laporan with Invalid Auth$")
+    public void userTestAPILaporanWithInvalidAuth() {
+        laporanController.laporanErrorFlow();
+    }
+
+    @Then("^user can see get the result of get laporan gagal$")
+    public void userCanSeeGetTheResultOfGetLaporanGagal() {
+    }
 }
 

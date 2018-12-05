@@ -68,5 +68,64 @@ public class ApiPelangganSteps extends ScenarioSteps {
     public void userCanSeeTheMassageOfViewPelangganBerhasil() throws Throwable {
 
     }
+
+    @Given("^user test API Create Pelanggan Invalid Auth$")
+    public void userTestAPICreatePelangganInvalidAuth() {
+        pelangganController.createPelangganInvalidAuth();
+    }
+
+    @Then("^user can see the massage Create Pelanggan gagal$")
+    public void userCanSeeTheMassageCreatePelangganGagal() {
+        
+    }
+
+    @Given("^user test API Update Pelanggan Invalid Id$")
+    public void userTestAPIUpdatePelangganInvalidId() {
+        pelangganController.updatePelangganInvalidId();
+    }
+
+    @Then("^user can see the massage Update Pelanggan gagal$")
+    public void userCanSeeTheMassageUpdatePelangganGagal() {
+        
+    }
+
+    @Given("^user test API Search Pelanggan Invalid Id$")
+    public void userTestAPISearchPelangganInvalidId() {
+        pelangganController.searchPelangganInvalidId();
+    }
+
+    @Then("^user can see the massage Search Pelanggan gagal$")
+    public void userCanSeeTheMassageSearchPelangganGagal() {
+        
+    }
+
+    @Given("^user test API Delete Pelanggan Invalid Id$")
+    public void userTestAPIDeletePelangganInvalidId() {
+        pelangganController.deletePelangganInvalidId();
+    }
+
+    @Then("^user can see the massage API Delete Pelanggan gagal$")
+    public void userCanSeeTheMassageAPIDeletePelangganGagal() {
+        
+    }
+
+    @Given("^user test API Index Pelanggan Invalid Auth$")
+    public void userTestAPIIndexPelangganInvalidAuth() {
+        pelangganController.indexPelangganInvalidAuth();
+    }
+
+    @Then("^user can see the massage of Index Pelanggan gagal$")
+    public void userCanSeeTheMassageOfIndexPelangganGagal() {
+        
+    }
+
+    @Given("^user test API View Pelanggan Invalid Id$")
+    public void userTestAPIViewPelangganInvalidId() {
+        pelangganController.viewPelangganInvalidId();
+    }
+
+    @Then("^user can see the massage of View Pelanggan gagal$")
+    public void userCanSeeTheMassageOfViewPelangganGagal() {
+    }
 }
 

@@ -12,11 +12,20 @@ public class ApiNotifikasiSteps extends ScenarioSteps {
 
     @Then("^user can see get the result of get Index Notifikasi$")
     public void userCanSeeGetTheResultOfGetIndexNotifikasi() {
-        notifikasiController.indexNotifikasi();
+        notifikasiController.indexNotifikasiHappyFlow();
     }
 
     @Given("^user test API Index Notifikasi$")
     public void userTestAPIIndexNotifikasi() {
+    }
+
+    @Given("^user test API Index Notifikasi Invalid Auth$")
+    public void userTestAPIIndexNotifikasiInvalidAuth() {
+
+    }
+
+    @Then("^user can see get the result of get Index Notifikasi gagal$")
+    public void userCanSeeGetTheResultOfGetIndexNotifikasiGagal() {
     }
 }
 

@@ -33,3 +33,33 @@ Feature: Api Supplier
   Scenario: Happyflow API View Supplier
     Given user test API View Supplier
     Then user can see the massage of View Supplier berhasil
+
+  @APICreateSupplierInvalidAuth
+  Scenario: Errorflow API Create Supplier Invalid Auth
+    Given user test API Create Supplier Invalid Auth
+    Then user can see the massage Create Supplier gagal
+
+  @APIUpdateSupplierInvalidId
+  Scenario: Errorflow API Update Supplier Invalid Id
+    Given user test API Update Supplier Invalid Id
+    Then user can see the massage Update Supplier gagal
+
+  @APISearchSupplierInvalidId
+  Scenario: Errorflow API Search Supplier Invalid Id
+    Given user test API Search Supplier Invalid Id
+    Then user can see the massage Search Supplier gagal
+
+  @APIDeleteSupplierInvalidId
+  Scenario: Errorflow API Delete Supplier Invalid Id
+    Given user test API Delete Supplier Invalid Id
+    Then user can see the massage API Delete Supplier gagal
+
+  @APIIndexSupplierInvalidAuth
+  Scenario: Errorflow API Index Supplier Invalid Auth
+    Given user test API Index Supplier Invalid Auth
+    Then user can see the massage of Index Supplier gagal
+
+  @APIViewSupplierInvalidId
+  Scenario: Errorflow API View Supplier Invalid Id
+    Given user test API View Supplier Invalid Id
+    Then user can see the massage of View Supplier gagal

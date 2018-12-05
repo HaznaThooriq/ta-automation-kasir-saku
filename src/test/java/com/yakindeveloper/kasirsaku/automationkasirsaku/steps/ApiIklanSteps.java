@@ -29,5 +29,24 @@ public class ApiIklanSteps extends ScenarioSteps {
     @Then("^user can see get the result of get View iklan berhasil$")
     public void userCanSeeGetTheResultOfGetViewIklanBerhasil() {
     }
+
+    @Given("^user test API Index Iklan Invalid Auth$")
+    public void userTestAPIIndexIklanInvalidAuth() {
+        iklanController.indexIklanInvalidAuth();
+    }
+
+    @Then("^user can see get the result of get Index iklan gagal$")
+    public void userCanSeeGetTheResultOfGetIndexIklanGagal() {
+
+    }
+
+    @Given("^user test API View Iklan Invalid Id$")
+    public void userTestAPIViewIklanInvalidId() {
+        iklanController.viewIklanInvalidId();
+    }
+
+    @Then("^user can see get the result of get View iklan gagal$")
+    public void userCanSeeGetTheResultOfGetViewIklanGagal() {
+    }
 }
 

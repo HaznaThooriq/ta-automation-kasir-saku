@@ -53,5 +53,54 @@ public class ApiHutangSteps extends ScenarioSteps {
     public void userTestAPIIndexHutangTransaksi() throws Throwable {
         hutangController.indexHutang();
     }
+
+    @Given("^user test API Search Hutang Invalid Keyword$")
+    public void userTestAPISearchHutangInvalidKeyword() {
+        hutangController.searchHutangInvalidPelanggan();
+    }
+
+    @Then("^user can see the massage Search Hutang gagal$")
+    public void userCanSeeTheMassageSearchHutangGagal() {
+
+    }
+
+    @Given("^user test API Bayar Hutang Invalid Jumlah Bayar$")
+    public void userTestAPIBayarHutangInvalidJumlahBayar() {
+        hutangController.hutangBayarInvalidJumlahBayar();
+    }
+
+    @Then("^user can see the massage Transaksi hutang gagal$")
+    public void userCanSeeTheMassageTransaksiHutangGagal() {
+
+    }
+
+    @Given("^user test API Index hutang Transaksi with Invalid Auth$")
+    public void userTestAPIIndexHutangTransaksiWithInvalidAuth() {
+        hutangController.indexHutangInvalidAuth();
+    }
+
+    @Then("^user can see the massage of Index hutang gagal$")
+    public void userCanSeeTheMassageOfIndexHutangGagal() {
+
+    }
+
+    @Given("^user test API View Hutang Invalid Id$")
+    public void userTestAPIViewHutangInvalidId() {
+        hutangController.viewHutangInvalidId();
+    }
+
+    @Then("^user can see the massage of View Hutang gagal$")
+    public void userCanSeeTheMassageOfViewHutangGagal() {
+
+    }
+
+    @Given("^user test API Hutang Pelanggan Invalid Pelanggan$")
+    public void userTestAPIHutangPelangganInvalidPelanggan() {
+        hutangController.searchHutangInvalidPelanggan();
+    }
+
+    @Then("^user can see the massage of Hutang Pelanggan gagal$")
+    public void userCanSeeTheMassageOfHutangPelangganGagal() {
+    }
 }
 
