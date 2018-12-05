@@ -5,5 +5,5 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features="src/test/resources/features/APIKasirsaku/APIProfile.feature", tags = "@APIUpdateProfileZeroRequiredField")
+@CucumberOptions(features="src/test/resources/features/APIKasirsaku/APIBarang.feature", tags = "@APIIndexBarangErrorAuth")
 public class DefinitionTestSuite {}

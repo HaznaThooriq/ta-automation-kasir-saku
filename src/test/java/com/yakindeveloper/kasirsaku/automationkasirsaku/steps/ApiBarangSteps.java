@@ -65,5 +65,64 @@ public class ApiBarangSteps extends ScenarioSteps {
     public void userCanSeeTheResultOfDeleteBarang() throws Throwable {
 
     }
+
+    @Given("^user test API Barang with Error Authorization '(.*)'$")
+    public void userTestAPIBarangWithErrorAuthorization(String auth) {
+        barangController.barangIndexErrorFlow(auth);
+    }
+
+    @Then("^user can't see the index of barang$")
+    public void userCanTSeeTheIndexOfBarang() {
+
+    }
+
+    @Given("^user test API View Barang Invalid Id with Authorization '(.*)' and id '(.*)'$")
+    public void userTestAPIViewBarangInvalidIdWithAuthorizationAndId(String auth, String id) {
+        barangController.barangViewErrorFlow(auth, id);
+    }
+
+    @Then("^user can't see the result of view barang$")
+    public void userCanTSeeTheResultOfViewBarang() {
+
+    }
+
+    @Given("^user test API Scan Invalid Barcode with Authorization '(.*)' and barcode '(.*)'$")
+    public void userTestAPIScanInvalidBarcodeWithAuthorizationAndBarcode(String auth, String barcode) {
+        barangController.scanBarcodeErrorFlow(auth, barcode);
+    }
+
+    @Then("^user can't see the result of Scan Barcode$")
+    public void userCanTSeeTheResultOfScanBarcode() {
+
+    }
+
+    @Given("^user test API Search Barang Invalid Keyword with Authorization '(.*)' and keyword '(.*)'$")
+    public void userTestAPISearchBarangInvalidKeywordWithAuthorizationAndKeyword(String auth, String keyword) {
+        barangController.searchBarangErrorFlow(auth,keyword);
+    }
+
+    @Then("^user can't see the result search barang$")
+    public void userCanTSeeTheResultSearchBarang() {
+
+    }
+
+    @Given("^user test API Tambah Stock Barang Invalid Id '(.*)', stock '(.*)', harga supplier '(.*)', harga baru '(.*)'$")
+    public void userTestAPITambahStockBarangInvalidId(String id, String stock, String hargaSupplier, String hargaBaru) {
+        barangController.tambahStockBarangErrorFlow(id,stock,hargaSupplier,hargaBaru);
+    }
+
+    @Then("^user can't see the result of tambah stock barang$")
+    public void userCanTSeeTheResultOfTambahStockBarang() {
+
+    }
+
+    @Given("^user test API Delete Barang Id '(.*)' with Invalid Authorization '(.*)'$")
+    public void userTestAPIDeleteBarangIdWithInvalidAuthorizationB(String id, String auth) {
+        barangController.deleteBarangErrorFlow(id, auth);
+    }
+
+    @Then("^user can't see the result of delete barang$")
+    public void userCanTSeeTheResultOfDeleteBarang() {
+    }
 }
 
