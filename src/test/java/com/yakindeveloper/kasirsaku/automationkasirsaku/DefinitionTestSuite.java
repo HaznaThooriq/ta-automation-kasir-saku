@@ -5,5 +5,5 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features="src/test/resources/features/APIKasirsaku/APITopupPPOB.feature", tags = "@APIDeleteTopupPPOBInvalidId")
+@CucumberOptions(features="src/test/resources/features/WebKasirSaku/UserMakeAPurchase.feature", tags = "")
 public class DefinitionTestSuite {}

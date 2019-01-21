@@ -2,6 +2,7 @@ package com.yakindeveloper.kasirsaku.automationkasirsaku.steps;
 
 
 import cucumber.api.PendingException;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -76,5 +77,41 @@ public class HomepageSteps extends ScenarioSteps {
     @Then("^toast invalid username and password appear$")
     public void userStillInLoginPage() throws Throwable {
         homePage.toastInvalidUsernamePassword();
+    }
+
+    @Then("^user can see logo of kasirsaku$")
+    public void userCanSeeLogoOfKasirsaku() throws Throwable {
+    }
+
+    @And("^navbar user area is visible$")
+    public void navbarUserAreaIsVisible() throws Throwable {
+    }
+
+    @And("^navbar feature is visible$")
+    public void navbarFeatureIsVisible() throws Throwable {
+    }
+
+    @And("^navbar reviews is visible$")
+    public void navbarReviewsIsVisible() throws Throwable {
+    }
+
+    @And("^navbar Screens is visible$")
+    public void navbarScreensIsVisible() throws Throwable {
+    }
+
+    @And("^navbar about is visible$")
+    public void navbarAboutIsVisible() throws Throwable {
+    }
+
+    @And("^navbar Get App is visible$")
+    public void navbarGetAppIsVisible() throws Throwable {
+    }
+
+    @And("^navbar Support is visible$")
+    public void navbarSupportIsVisible() throws Throwable {
+    }
+
+    @And("^carousel image is visible$")
+    public void carouselImageIsVisible() throws Throwable {
     }
 }
