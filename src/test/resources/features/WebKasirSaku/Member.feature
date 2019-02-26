@@ -21,7 +21,7 @@ Feature: Create Member
     When user click button create
 
   @MemberErrorFlowZeroAll
-  Scenario: user create member as HappyFlow Scenario
+  Scenario: user create member as ErrorFlow Scenario Zero All Field
     Given user go to 'http://kasirsaku.sahabatdeveloper.site/'
     Then user in kasirsaku homepage
     When user click navbar user area
@@ -37,7 +37,7 @@ Feature: Create Member
     When user click button create
 
   @MemberErrorFlowTypeNama
-  Scenario: user create member as HappyFlow Scenario
+  Scenario: user create member as ErrorFlow Scenario Zero All Field except Nama
     Given user go to 'http://kasirsaku.sahabatdeveloper.site/'
     Then user in kasirsaku homepage
     When user click navbar user area
@@ -52,8 +52,8 @@ Feature: Create Member
     And user type alamat as ''
     When user click button create
 
-  @MemberErrorFlowTypeNama
-  Scenario: user create member as HappyFlow Scenario
+  @MemberErrorFlowTypeTelephone
+  Scenario: user create member as ErrorFlow Scenario Zero All Field except Telephone
     Given user go to 'http://kasirsaku.sahabatdeveloper.site/'
     Then user in kasirsaku homepage
     When user click navbar user area
@@ -68,8 +68,8 @@ Feature: Create Member
     And user type alamat as ''
     When user click button create
 
-  @MemberErrorFlowTypeNama
-  Scenario: user create member as HappyFlow Scenario
+  @MemberErrorFlowTypeAlamat
+  Scenario: user create member as ErrorFlow Scenario Zero All Field except Alamat
     Given user go to 'http://kasirsaku.sahabatdeveloper.site/'
     Then user in kasirsaku homepage
     When user click navbar user area

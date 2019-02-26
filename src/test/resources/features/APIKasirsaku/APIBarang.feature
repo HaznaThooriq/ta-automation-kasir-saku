@@ -29,7 +29,7 @@ Feature: Api Barang
     Given user test API Scan Barcode with Authorization 'Basic YTJGemFYSmZjMkZyZFRwTlpXWldMVGgwVUVGdk9EbE9SR2M9Og==' and barcode '12345678'
     Then user can see the result of Scan Barcode
 
-  @APIScanInvalidBarcode
+  @APIScanInvaldBarcode
   Scenario: ErrorFlow API Scan Invalid Barcode
     Given user test API Scan Invalid Barcode with Authorization 'Basic YTJGemFYSmZjMkZyZFRwTlpXWldMVGgwVUVGdk9EbE9SR2M9Og==' and barcode ''
     Then user can't see the result of Scan Barcode

@@ -42,7 +42,6 @@ public class HomepageSteps extends ScenarioSteps {
 
     @Then("^user in dashboard menu$")
     public void userInDashboardMenu() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
         throw new PendingException();
     }
 

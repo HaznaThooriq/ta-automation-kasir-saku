@@ -11,7 +11,7 @@ Feature: Api Hutang
 
   @APIBayarHutang
   Scenario: Happyflow API Bayar Hutang
-    Given user test API Bayar Hutang
+    Given user test API Ba yar Hutang
     Then user can see the massage Transaksi hutang berhasil
 
   @APIHutangIndex
