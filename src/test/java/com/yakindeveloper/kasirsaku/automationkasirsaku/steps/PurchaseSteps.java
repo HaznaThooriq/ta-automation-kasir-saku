@@ -2,10 +2,8 @@ package com.yakindeveloper.kasirsaku.automationkasirsaku.steps;
 
 import com.yakindeveloper.kasirsaku.automationkasirsaku.pages.PurchasePage;
 import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import net.thucydides.core.annotations.Steps;
 import net.thucydides.core.steps.ScenarioSteps;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -13,8 +11,8 @@ public class PurchaseSteps extends ScenarioSteps {
     @Autowired
     PurchasePage purchasePage;
 
-    @Steps
-    HomepageSteps homepageSteps;
+/*    @Steps
+    HomepageSteps homepageSteps;*/
 
     @Then("^user can see popup pengembalian as '(.*)'$")
     public void userCanSeePopupPengembalianAs(String kembalian) throws Throwable {
@@ -29,12 +27,14 @@ public class PurchaseSteps extends ScenarioSteps {
     @When("^user click button pembelian$")
     public void userClickButtonPembelian() throws Throwable {
         purchasePage.clickBtnPembelian();
+        waitABit(1000L);
     }
 
     @And("^user click checkout button$")
     public void userClickCheckoutButton() throws Throwable {
         purchasePage.userClickCheckoutButton();
     }
+/*
 
     @Given("^user go to dashboard of kasirsaku$")
     public void userGoToDashboardOfKasirsaku() throws Throwable {
@@ -47,6 +47,7 @@ public class PurchaseSteps extends ScenarioSteps {
        homepageSteps.userClickGoToDashboardMenu();
        homepageSteps.userAlreadyLoginAsKasirSaku();
     }
+*/
 
     @And("^user input Jumlah Bayar As'(.*)'$")
     public void userInputJumlahBayarAs(String JumlahBayar) throws Throwable {
@@ -61,6 +62,13 @@ public class PurchaseSteps extends ScenarioSteps {
     @When("^user pilh barang as '(.*)'$")
     public void userPilhBarangAs(String barang) throws Throwable {
         purchasePage.pilihBarang();
+        waitABit(1000L);
+        System.out.println("hazna lala");
         purchasePage.searchBarang(barang);
+    }
+
+    @Then("^user can see popup error transaksi$")
+    public void userCanSeePopupErrorTransaksi() throws Throwable {
+        purchasePage.transaksiError();
     }
 }
