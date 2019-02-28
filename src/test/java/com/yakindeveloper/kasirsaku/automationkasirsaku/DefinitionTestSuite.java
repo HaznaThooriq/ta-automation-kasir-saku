@@ -5,5 +5,5 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features="src/test/resources/features/APIKasirsaku/APILogin.feature", tags = "")
+@CucumberOptions(features="src/test/resources/features/WebKasirSaku/Login.feature", tags = "@Login")
 public class DefinitionTestSuite {}
