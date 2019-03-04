@@ -11,6 +11,6 @@ import java.util.concurrent.TimeUnit;
 
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features="src/test/resources/features/WebKasirSaku/Login.feature", tags = "@Login")
+@CucumberOptions(features="src/test/resources/features/WebKasirSaku/Login.feature", tags = "@Dashboard")
 public class DefinitionTestSuite {
 }

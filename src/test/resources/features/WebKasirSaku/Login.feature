@@ -4,6 +4,10 @@ Feature: Login kasirsaku
   As a user
   I want to login at kasirsaku webpage
 
+  @Dashboard
+  Scenario: user login at kasirsaku webpage happyflow
+    Given user go to 'http://kasirsaku.sahabatdeveloper.site/'
+
   @Login
   Scenario: user login at kasirsaku webpage happyflow
     Given user go to 'http://kasirsaku.sahabatdeveloper.site/'
