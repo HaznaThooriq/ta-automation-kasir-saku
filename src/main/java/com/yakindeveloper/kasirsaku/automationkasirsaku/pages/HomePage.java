@@ -12,6 +12,9 @@ public class HomePage extends PageObject{
     @FindBy(xpath = "//a[@class='navbar-brand']/img[@class='logo']")
     private WebElementFacade logo;
 
+    @FindBy(xpath = "//*[@id=\"tsf\"]/div[2]/div/div[1]/div/div[1]/input")
+    private WebElementFacade fieldGoogle;
+
     @FindBy(xpath = "//div[@class=\'help-block\']")
     private WebElementFacade toastInvalidUsernamePassword;
 
@@ -67,6 +70,10 @@ public class HomePage extends PageObject{
     public void login(String username, String password){
         fieldUsername.type(username);
         fieldPassword.type(password);
+    }
+
+    public void typeFieldGoogle(){
+        fieldGoogle.typeAndEnter("pens");
     }
 
     public boolean toastInvalidUsernamePassword(){

@@ -113,4 +113,9 @@ public class HomepageSteps extends ScenarioSteps {
     @And("^carousel image is visible$")
     public void carouselImageIsVisible() throws Throwable {
     }
+
+    @When("^user type in google$")
+    public void userTypeInGoogle() {
+     homePage.typeFieldGoogle();
+    }
 }

@@ -6,8 +6,8 @@ Feature: Login kasirsaku
 
   @Dashboard
   Scenario: user login at kasirsaku webpage happyflow
-    Given user go to 'http://kasirsaku.sahabatdeveloper.site/'
-    Then user in kasirsaku homepage
+    Given user go to 'https://www.google.com/'
+    When user type in google
 
   @Login
   Scenario: user login at kasirsaku webpage happyflow
