@@ -5,7 +5,7 @@ Feature: Login kasirsaku
   I want to login at kasirsaku webpage
 
   @Dashboard
-  Scenario: user login at kasirsaku webpage happyflow
+  Scenario: user login at gmail
     Given user go to 'https://accounts.google.com/ServiceLogin/identifier?hl=in&lp=1&flowName=GlifWebSignIn&flowEntry=AddSession'
     When user type in google
     When user type password
