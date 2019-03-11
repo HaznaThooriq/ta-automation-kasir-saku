@@ -116,6 +116,11 @@ public class HomepageSteps extends ScenarioSteps {
 
     @When("^user type in google$")
     public void userTypeInGoogle() {
-     homePage.typeFieldGoogle();
+     homePage.typeFieldUsernameGoogle();
+    }
+
+    @When("^user type password$")
+    public void userTypePasswordGoogle() {
+        homePage.typeFieldPasswordGoogle();
     }
 }

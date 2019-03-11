@@ -12,8 +12,11 @@ public class HomePage extends PageObject{
     @FindBy(xpath = "//a[@class='navbar-brand']/img[@class='logo']")
     private WebElementFacade logo;
 
-    @FindBy(xpath = "//*[@id=\"tsf\"]/div[2]/div/div[1]/div/div[1]/input")
-    private WebElementFacade fieldGoogle;
+    @FindBy(xpath = "//*[@id=\"identifierId\"]")
+    private WebElementFacade fieldUsernameGoogle;
+
+    @FindBy(xpath = "//*[@id=\"password\"]/div[1]/div/div[1]/input")
+    private WebElementFacade fieldPasswordGoogle;
 
     @FindBy(xpath = "//div[@class=\'help-block\']")
     private WebElementFacade toastInvalidUsernamePassword;
@@ -72,8 +75,13 @@ public class HomePage extends PageObject{
         fieldPassword.type(password);
     }
 
-    public void typeFieldGoogle(){
-        fieldGoogle.typeAndEnter("pens");
+    public void typeFieldUsernameGoogle(){
+        fieldUsernameGoogle.typeAndEnter("cahaya.petshop2");
+    }
+
+    public void typeFieldPasswordGoogle(){
+        fieldPasswordGoogle.typeAndEnter("CahayaPetshop99");
+        waitABit(10000L);
     }
 
     public boolean toastInvalidUsernamePassword(){
