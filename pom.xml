@@ -18,9 +18,10 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <serenity.version>2.0.11</serenity.version>
+        <!--<serenity.version>1.9.45</serenity.version>-->
         <selenium.version>3.14.0</selenium.version>
         <serenity.cucumber.version>1.9.20</serenity.cucumber.version>
-        <webdriver.driver>chrome</webdriver.driver>
+        <webdriver.driver>firefox</webdriver.driver>
     </properties>
 
     <repositories>
