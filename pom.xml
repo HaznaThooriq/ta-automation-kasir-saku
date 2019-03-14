@@ -134,7 +134,7 @@
                     <systemPropertyVariables>
                         <webdriver.driver>${webdriver.driver}</webdriver.driver>
                         <cucumber.options>--junit,--step-notifications</cucumber.options>
-                    </systemPropertyVariables>
+                </systemPropertyVariables>
                 </configuration>
                 <executions>
                     <execution>
