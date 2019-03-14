@@ -7,6 +7,8 @@ Feature: Login kasirsaku
   @Dashboard
   Scenario: user login at gmail
     Given user go to 'https://accounts.google.com/ServiceLogin/identifier?hl=in&lp=1&flowName=GlifWebSignIn&flowEntry=AddSession'
+    When user type in google
+    When user type password
 
   @Login
   Scenario: user login at kasirsaku webpage happyflow
