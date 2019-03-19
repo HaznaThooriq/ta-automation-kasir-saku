@@ -20,7 +20,7 @@
         <serenity.version>2.0.11</serenity.version>
         <selenium.version>3.14.0</selenium.version>
         <serenity.cucumber.version>1.9.20</serenity.cucumber.version>
-        <webdriver.driver>firefox</webdriver.driver>
+        <webdriver.driver>chrome</webdriver.driver>
     </properties>
 
     <repositories>
@@ -93,6 +93,11 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-firefox-driver</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
             <version>3.141.59</version>
         </dependency>
         <!-- <dependency>
